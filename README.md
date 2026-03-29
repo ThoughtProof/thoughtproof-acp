@@ -113,6 +113,15 @@ Settlement metadata:
 - `GET /offerings/:name`
 - `POST /offerings/:name/invoke`
 
+## Live deployment
+
+Production URL:
+- `https://thoughtproof-acp.vercel.app`
+
+Quick checks:
+- `https://thoughtproof-acp.vercel.app/healthz`
+- `https://thoughtproof-acp.vercel.app/manifest`
+
 ## Example invoke
 
 ```bash
